@@ -8,14 +8,14 @@ The if statement allows you to execute a block of code if a given condition is t
 
 Example (DevOps Perspective):
 
-``
+```
 server_count = 5
 
 if server_count > 10:
     print("Too many servers. Scale down.")
 else:
     print("Server count is acceptable.")
-    ``
+    ```
 In this example, if the server_count is greater than 10, the code suggests scaling down, indicating it's important to maintain a desired number of servers in your infrastructure.
 
 2. else Statement:
@@ -24,14 +24,14 @@ The else statement is used in combination with if to execute a block of code whe
 
 Example (DevOps Perspective):
 
-``
+```
 server_status = "running"
 
 if server_status == "stopped":
     print("Start the server.")
 else:
     print("The server is already running.")
-    ``
+    ```
 In this case, if the server_status is not "stopped," it assumes the server is running, which is crucial for ensuring server availability.
 
 3. elif Statement:
@@ -40,7 +40,7 @@ The elif statement allows you to check additional conditions when the initial if
 
 Example (DevOps Perspective):
 
-``
+```
 environment = "production"
 
 if environment == "development":
@@ -49,7 +49,7 @@ elif environment == "staging":
     print("Use staging settings.")
 else:
     print("Use production settings.")
-``
+```
 
 In this example, it selects the appropriate configuration settings based on the specified environment. This is essential for ensuring consistency and correctness in your deployment and infrastructure settings.
 
