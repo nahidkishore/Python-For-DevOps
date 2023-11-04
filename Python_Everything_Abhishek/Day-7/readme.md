@@ -1,3 +1,5 @@
+# Conditional Statements in Python
+
 Conditional statements in Python are used to make decisions based on certain conditions. They allow your code to take different paths depending on whether a condition is true or false. In DevOps, they are crucial for automating tasks that require decision-making, such as managing infrastructure, handling deployment pipelines, and ensuring system stability.
 
 Here are examples of common conditional statements in Python: if, else, and elif (short for "else if").
