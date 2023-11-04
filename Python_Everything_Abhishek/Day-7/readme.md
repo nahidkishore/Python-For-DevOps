@@ -57,14 +57,14 @@ Why are Conditional Statements Important for DevOps in Python:
 
 Conditional statements are fundamental in DevOps for the following reasons:
 
-Automation: DevOps tasks often involve making decisions based on various conditions, such as scaling resources, selecting configurations, or responding to system events.
+1. Automation: DevOps tasks often involve making decisions based on various conditions, such as scaling resources, selecting configurations, or responding to system events.
 
-Control Flow: Conditional statements provide control over the flow of your scripts, enabling you to handle different scenarios effectively.
+2. Control Flow: Conditional statements provide control over the flow of your scripts, enabling you to handle different scenarios effectively.
 
-Error Handling: They allow you to handle errors and exceptions gracefully, preventing issues from causing service disruptions.
+3. Error Handling: They allow you to handle errors and exceptions gracefully, preventing issues from causing service disruptions.
 
-Consistency: They help ensure consistency in your infrastructure and deployments, reducing the risk of misconfigurations or mistakes.
+4. Consistency: They help ensure consistency in your infrastructure and deployments, reducing the risk of misconfigurations or mistakes.
 
-Efficiency: Automating decision-making processes through conditional statements saves time and reduces the chance of human errors.
+5. Efficiency: Automating decision-making processes through conditional statements saves time and reduces the chance of human errors.
 
 In a DevOps role, you'll frequently use conditional statements to build robust automation scripts that manage infrastructure, deployment pipelines, and other critical aspects of system administration and operations. Being proficient with these statements is essential to ensure the reliability and efficiency of your DevOps processes.
