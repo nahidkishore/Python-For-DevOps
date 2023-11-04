@@ -15,7 +15,7 @@ if server_count > 10:
     print("Too many servers. Scale down.")
 else:
     print("Server count is acceptable.")
-    ```
+```
 In this example, if the server_count is greater than 10, the code suggests scaling down, indicating it's important to maintain a desired number of servers in your infrastructure.
 
 2. else Statement:
@@ -31,7 +31,7 @@ if server_status == "stopped":
     print("Start the server.")
 else:
     print("The server is already running.")
-    ```
+```
 In this case, if the server_status is not "stopped," it assumes the server is running, which is crucial for ensuring server availability.
 
 3. elif Statement:
