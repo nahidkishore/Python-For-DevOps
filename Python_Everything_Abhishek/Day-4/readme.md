@@ -10,11 +10,39 @@ https://pypi.org/
 
 https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
 
+`pip3 list`
 
 
 ## Install virtual Envirnment: 
 
 ` pip3 install virtualenv `
+
+## 3. Python Workspaces
+
+Python workspaces refer to the environment in which you develop and run your Python code. They include the Python interpreter, installed libraries, and the current working directory. Understanding workspaces is essential for managing dependencies and code organization.
+
+Python workspaces can be local or virtual environments. A local environment is the system-wide Python installation, while a virtual environment is an isolated environment for a specific project. You can create virtual environments using tools like `virtualenv` or `venv`.
+
+**Example:**
+
+```bash
+# Create a virtual environment
+python -m venv myenv
+ls - ltr
+pip3 install jira
+# Activate the virtual environment (on Windows)
+myenv\Scripts\activate
+
+# Activate the virtual environment (on macOS/Linux)
+source myenv/bin/activate
+
+pip3 list | grep jira
+```
+
+Once activated, you work in an isolated workspace with its Python interpreter and library dependencies.
+
+
+
 
 
 # Python Functions, Modules and Packages
