@@ -123,6 +123,7 @@ A POST request is sent to the Jira API endpoint with authentication headers, and
 ## GitHub Webhooks Integration:
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-1.png)
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-2.png)
+
 After clicking the "Add Webhooks" button, please verify if the webhooks were successfully added or not. In case of failure, kindly check what went wrong. Once the issue is resolved, click the "Redelivery" button. You will see a screenshot below with the successful addition of webhooks, indicated by a green checkmark.
 
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-3.png)
@@ -142,15 +143,21 @@ If I want to use a conditional statement, for example, when I comment on the Git
 
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-6.png)
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-7.png)
+
 Now, when I commented 'jira' in the GitHub issue, a new issue ticket got generated in the JIRA backlog automatically. Previously, there were three issues, and now there are four.
+
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-8.png)
+
 Checking the GitHub webhook section, we verified that an issue was created, and the body section shows 'jira'. This confirms our logic is working successfully.
+
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-9.png)
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-10.png)
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-11.png)
+
 Now, for our else conditions, if any message other than 'jira' is entered in the GitHub issue comment section, it will display the message 'Comment should be 'jira''.
 
 Let's check all the else conditions. I commented 'test' in the GitHub issue ticket, then checked the GitHub webhooks, and found 'Comment should be 'jira''. However, no new issue ticket was generated in JIRA. So, our logic is operating correctly. Hence, if a comment other than 'jira' is made in the GitHub issue, JIRA won’t create a new issue ticket.
+
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-12.png)
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-13.png)
 
