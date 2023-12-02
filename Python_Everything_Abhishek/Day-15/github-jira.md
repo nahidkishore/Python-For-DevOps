@@ -1,3 +1,5 @@
+# GitHub-Jira Integration Automation with Python Flask
+
 This project aims to automate GitHub-Jira integration using Python Flask, enabling seamless communication between GitHub repositories and Jira issue tracking system. The automation involves creating Jira issues based on GitHub repository events through webhook triggers.
 
 ### Table of Contents
