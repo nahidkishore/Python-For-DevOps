@@ -121,34 +121,38 @@ The payload includes specific details like description, project key, issue type,
 A POST request is sent to the Jira API endpoint with authentication headers, and the response is returned in JSON format.
 
 ## GitHub Webhooks Integration:
-![GitHub Logo](/images/img-1.png)
-![GitHub Logo](/images/img-2.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-1.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-2.png)
 After clicking the "Add Webhooks" button, please verify if the webhooks were successfully added or not. In case of failure, kindly check what went wrong. Once the issue is resolved, click the "Redelivery" button. You will see a screenshot below with the successful addition of webhooks, indicated by a green checkmark.
-![GitHub Logo](/images/img-3.png)
+
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-3.png)
 
 
 After configuring GitHub webhooks, when we create an issue on GitHub repository and comment on it. The webhook triggers the Flask API endpoint, and GitHub webhooks automatically send the issue to the JIRA channel and create a new issue in the backlog section.
-![GitHub Logo](/images/img-4.png)
+
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-4.png)
+
 Below, in the screenshot image, we can view the new issue list in the backlog section.
-![GitHub Logo](/images/img-5.png)
+
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-5.png)
 
 ## Conditional Statements and Logic:
 
 If I want to use a conditional statement, for example, when I comment on the GitHub issue section, I don't want an issue ticket to be generated in JIRA for every comment. I specifically want a JIRA ticket to be automatically created only when I comment 'jira' in the GitHub issue ticket. Otherwise, it should display a failed message.
 
-![GitHub Logo](/images/img-6.png)
-![GitHub Logo](/images/img-7.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-6.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-7.png)
 Now, when I commented 'jira' in the GitHub issue, a new issue ticket got generated in the JIRA backlog automatically. Previously, there were three issues, and now there are four.
-![GitHub Logo](/images/img-8.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-8.png)
 Checking the GitHub webhook section, we verified that an issue was created, and the body section shows 'jira'. This confirms our logic is working successfully.
-![GitHub Logo](/images/img-9.png)
-![GitHub Logo](/images/img-10.png)
-![GitHub Logo](/images/img-11.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-9.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-10.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-11.png)
 Now, for our else conditions, if any message other than 'jira' is entered in the GitHub issue comment section, it will display the message 'Comment should be 'jira''.
 
 Let's check all the else conditions. I commented 'test' in the GitHub issue ticket, then checked the GitHub webhooks, and found 'Comment should be 'jira''. However, no new issue ticket was generated in JIRA. So, our logic is operating correctly. Hence, if a comment other than 'jira' is made in the GitHub issue, JIRA won’t create a new issue ticket.
-![GitHub Logo](/images/img-12.png)
-![GitHub Logo](/images/img-13.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-12.png)
+![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-13.png)
 
 ## Conclusion:
 
