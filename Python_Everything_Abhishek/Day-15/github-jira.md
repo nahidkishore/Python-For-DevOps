@@ -110,17 +110,18 @@ def createJira():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 ```
-The Python Flask script sets up a REST API endpoint ('/createJira') that handles POST requests and communicates with the Jira REST API to create issues. Here's a breakdown of the script's functionalities:
+The Python Flask script sets up a REST API endpoint ('/createJira') that handles POST requests and communicates with the Jira REST API to create issues. 
+Here's a breakdown of the script's functionalities:
 
-Libraries are imported: requests, HTTPBasicAuth, json, and Flask.
+* Libraries are imported: requests, HTTPBasicAuth, json, and Flask.
 
-Flask application instance is created.
+* Flask application instance is created.
 
-Function 'createJira()' is defined to construct and send a POST request to the Jira API to create an issue.
+* Function 'createJira()' is defined to construct and send a POST request to the Jira API to create an issue.
 
-The payload includes specific details like description, project key, issue type, and summary formatted as per Jira API requirements.
+* The payload includes specific details like description, project key, issue type, and summary formatted as per Jira API requirements.
 
-A POST request is sent to the Jira API endpoint with authentication headers, and the response is returned in JSON format.
+* A POST request is sent to the Jira API endpoint with authentication headers, and the response is returned in JSON format.
 
 ## GitHub Webhooks Integration:
 ![GitHub Logo](/Python_Everything_Abhishek/Day-15/images/img-1.png)
